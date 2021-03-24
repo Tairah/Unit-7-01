@@ -13,7 +13,7 @@ function randomizer () {
     document.getElementById('answer').innerHTML = 'Hooray you did it!'
   }
 
-  if (userGuess != randomNumber) {
+  if (userGuess !== randomNumber) {
     document.getElementById('answer').innerHTML = 'Oops try again'
-}
+  }
 }
