@@ -11,5 +11,5 @@ function randomizer () {
 
   if (userGuess === randomNumber) {
     document.getElementById('answer').innerHTML = 'Hooray you did it!'
-}
+  }
 }
