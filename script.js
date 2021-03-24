@@ -9,6 +9,6 @@ function randomizer () {
   randomNumber = (Math.random() * 6) + 1
   randomNumber = parseInt(randomNumber)
 
-  if { (userGuess === randomNumber)
+  if (userGuess === randomNumber)
     document.getElementById('answer').innerHTML = 'Hooray you did it!'
 }
